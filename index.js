@@ -1,6 +1,6 @@
-const menu = document.getElementsByTagName("option");
+// const menu = document.getElementsByTagName("option");
 
-// var citySet = "Avignon";
+ var citySet = "Avignon";
 
 $.getJSON("//api.openweathermap.org/data/2.5/weather?q="+ menu +"&units=metric&appid=143454aa39bbe3442a890cdbf3f9db36", function(data){
 	console.log(data);
