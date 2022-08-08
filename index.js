@@ -2,7 +2,7 @@
 
 var citySet = "Avignon";
 
-$.getJSON("//api.openweathermap.org/data/2.5/weather?q="+ citySet +"&units=metric&appid=f124eb91dc884aba7307bdedb2e78c99", function(data){
+$.getJSON("//api.openweathermap.org/data/2.5/weather?q="+ citySet +"&units=metric&appid=143454aa39bbe3442a890cdbf3f9db36", function(data){
 	console.log(data);
 
 	var icon = "//openweathermap.org/img/w/" + data.weather[0].icon + ".png";
