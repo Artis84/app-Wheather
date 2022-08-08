@@ -1,4 +1,4 @@
-const menu = document.getElementsById("weatherCity");
+const menu = document.getElementById("weatherCity");
 
 // var citySet = "Avignon";
 
