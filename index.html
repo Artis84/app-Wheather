@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Meteo</title>
-  	<meta charset="utf-8">
-	<script
-  	src="//code.jquery.com/jquery-3.3.1.min.js"
-  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  	crossorigin="anonymous">
-	</script>
-	<script src="index.js"></script>
-	<script src="//www.w3schools.com/lib/w3.js"></script>
-	<link rel="preload" href="index.js" as="script">
-	<link rel="preload" href="index.css" as="style">
-	<link rel="stylesheet" type="text/css" href="index.css">
-  	<link rel= "shortcut icon" href="favicon.ico">
-</head>
-<body class="w3-twothird">
-  <form>
-  <select id="weatherCity">
-  	<option value="Paris">Paris</option>
-  	<option value="Londre">Londre</option>
-  	<option value="Berlin">Berlin</option>
-  	<option value="Rome">Rome</option>
-  	<option value="Madrid">Madrid</option>
-  </select>
-  </form>
-	<div class="weather-container" class="w3-third">
-		<img class="icon">
-		<p class="city"></p>
-		<p class="weather"></p>
-		<p class="temp"></p>
-	</div>
-</body>
+    <head>
+        <title>Meteo</title>
+        <meta charset="utf-8" />
+        <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script defer src="index.js"></script>
+        <script src="//www.w3schools.com/lib/w3.js"></script>
+        <!-- <link rel="preload" href="index.js" as="script" />
+        <link rel="preload" href="index.css" as="style" /> -->
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet" />
+    </head>
+    <body class="w3-twothird">
+        <form>
+            <select id="weatherCity">
+                <option value="Paris">Paris</option>
+                <option value="Londre">Londre</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Rome">Rome</option>
+                <option value="Madrid">Madrid</option>
+            </select>
+        </form>
+        <div class="weather-container" class="w3-third">
+            <div class="weather-data">
+                <img class="icon" />
+                <p class="city"></p>
+                <p class="weather"></p>
+                <p class="temp"></p>
+            </div>
+        </div>
+    </body>
 </html>
